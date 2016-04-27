@@ -23,5 +23,6 @@
       <Pane fx:id="jmolContentPane" layoutX="305.0" layoutY="126.0" prefHeight="414.0" prefWidth="662.0" />
       <ListView fx:id="moleculesListView" layoutX="34.0" layoutY="230.0" prefHeight="235.0" prefWidth="200.0" />
       <Label layoutX="34.0" layoutY="163.0" prefHeight="55.0" prefWidth="262.0" text="Молекулы" />
+      <Button fx:id="file" layoutX="55.0" layoutY="488.0" mnemonicParsing="false" text="Выбрать файл" onMouseClicked="#handleFileDialog"/>
    </children>
 </AnchorPane>
